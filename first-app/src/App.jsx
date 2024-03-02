@@ -5,6 +5,7 @@ import Hooks from './Components/Hooks'
 import Ref from './Components/Ref'
 import ConditionalRendering from './Components/ConditionalRendering'
 import Task from './Components/task'
+import HandlingEvents from './Components/HandlingEvents'
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
     {/* <Hooks/> */}
     {/* <Ref/> */}
     {/* <ConditionalRendering/> */}
-    <Task/>
+    {/* <Task/> */}
+    <HandlingEvents/>
     </>
   )
 }
