@@ -4,6 +4,7 @@ import Counter from './Components/Counter'
 import Hooks from './Components/Hooks'
 import Ref from './Components/Ref'
 import ConditionalRendering from './Components/ConditionalRendering'
+import Task from './Components/task'
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
     {/* <Counter /> */}
     {/* <Hooks/> */}
     {/* <Ref/> */}
-    <ConditionalRendering/>
+    {/* <ConditionalRendering/> */}
+    <Task/>
     </>
   )
 }
