@@ -41,7 +41,7 @@ const ConditionalRendering = () => {
 
         <div className="list">List rendering</div>
         {mapvalue.map(value=>{
-          return <div className="card">
+          return <div className="card" key={value.id}>
             <h1>{value.id}</h1>
             <p>{value.title}</p>
             <p>{value.des}</p>
