@@ -2,7 +2,7 @@
 import About from './Component/About'
 import Home from './Component/Home'
 import Navbar from './Component/Navbar'
-import { createBrowserRouter,RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 function App() {
 
   const router = createBrowserRouter([{
@@ -11,7 +11,6 @@ function App() {
     element: <><Navbar /><Home /></>,
   },
   {
-
     path: "/about",
     element: <><Navbar /><About /></>
   }
@@ -20,7 +19,7 @@ function App() {
 
   return (
     <>
-<RouterProvider router={router} />
+      <RouterProvider router={router} />
     </>
   )
 }
